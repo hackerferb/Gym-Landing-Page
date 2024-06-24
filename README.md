@@ -36,9 +36,8 @@
 > - [🚀 Getting Started](#-getting-started)
 >   - [⚙️ Installation](#️-installation)
 >   - [🤖 Running Gym-Landing-Page](#-running-gym-landing-page)
->   - [🧪 Tests](#-tests)
+>   - [▶️ Live Preview](#-Live-Preview)
 > - [🛠 Project Roadmap](#-project-roadmap)
-> - [🤝 Contributing](#-contributing)
 > - [📄 License](#-license)
 > - [👏 Acknowledgments](#-acknowledgments)
 
@@ -125,7 +124,7 @@ Ensure you have the following dependencies installed on your system:
 
 Simply open the `index.html` file in any modern web browser to interact with the landing page.
 
-### 🧪 Live Preview 
+## 🧪 Live Preview 
 Live Preview Is Available on <a href="https://gymprojectbycyb3rvaibhav.netlify.app/" target="_blank">This Page</a>
 
 ---
