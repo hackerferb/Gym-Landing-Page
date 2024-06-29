@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,10 +42,12 @@
   /* border: black solid 1px; */
   color: black;
   padding: 10px 10px 0 10px;
-  font-family: "Teko", sans-serif;
+  /* font-family: "Teko", sans-serif; */
+  font-family: "Signika", sans-serif;
   font-size: 28px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all 0.2s ease-in;
 }
 .wrapper a:hover {
   border-bottom: solid rgb(255, 174, 0) 5px;
@@ -99,12 +101,13 @@
 }
 .line {
   top: 300px;
-  font-family: "Changa One", cursive;
+  font-family: 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif, cursive;
   z-index: 2;
   text-align: center;
   color: blanchedalmond;
   font-size: 100px;
   background: white;
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -156,6 +159,7 @@
   text-align: center;
   font: normal 25px/1.1rem "teko";
   word-spacing: 6px;
+  transition: all 0.2s ease-in;
 }
 .program:hover .programName {
   border: rgb(255, 174, 0) solid 3px;

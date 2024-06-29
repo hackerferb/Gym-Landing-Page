@@ -33,7 +33,7 @@ toggleBtn.addEventListener("click", function themeSwitch() {
 
     document.body.style.background = "black"; // background darkmode
     toggleBtn.style.margin = "1.5px 28px"; // theme switched
-
+    toggleBtn.style.transition = "all 0.3s ease"
     navlink[0].style.color = "white"; // logo in navbar
     navlink[1].style.color = "white"; // work in navbar
     navlink[2].style.color = "white"; // services in navbar
